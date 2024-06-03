@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "outDir": "./build/",
+        "module": "commonjs",
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "target": "es6",
+        "sourceMap": true,
+        "plugins": [
+            {
+                "name": "tslint-language-service"
+            },
+            { "name": "ts-proto" }
+        ]
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules"]
+}
